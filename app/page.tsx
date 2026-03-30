@@ -229,7 +229,7 @@ function Hero() {
             {/* Contact chips */}
             <div className="anim-fade-up d5" style={{ display: "flex", flexWrap: "wrap", gap: "1.25rem", marginTop: "2rem", paddingTop: "1.75rem", borderTop: "1px solid var(--border)" }}>
               {[
-                { icon: <PhoneIcon />, val: "+91 8291647164 / 9970073357" },
+                // { icon: <PhoneIcon />, val: "+91 8291647164 / 9970073357" },
                 { icon: <MailIcon />, val: "hr.sarveshpawar@gmail.com" },
                 { icon: <MapIcon />, val: "Mumbai, India" },
               ].map((c) => (
@@ -518,7 +518,7 @@ function Contact() {
           <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
             {[
               { icon: <MailIcon />, label: "Email", val: "hr.sarveshpawar@gmail.com", href: "mailto:hr.sarveshpawar@gmail.com" },
-              { icon: <PhoneIcon />, label: "Phone", val: "+91 8291647164 / 9970073357", href: "tel:+918291647164" },
+              // { icon: <PhoneIcon />, label: "Phone", val: "+91 8291647164 / 9970073357", href: "tel:+918291647164" },
               { icon: <MapIcon />, label: "Location", val: "Mumbai, India", href: null },
               { icon: <LinkedinIcon />, label: "LinkedIn", val: "linkedin.com/in/sarveshpawar", href: "https://www.linkedin.com/in/sarveshpawar" },
             ].map((c) => (
