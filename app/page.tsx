@@ -554,8 +554,6 @@ function Footer() {
       <p style={{ marginBottom: "0.75rem" }}>Talent Acquisition Leader · Mumbai</p>
       <p>
         <a href="mailto:hr.sarveshpawar@gmail.com">hr.sarveshpawar@gmail.com</a>
-        {" · "}
-        <a href="tel:+918291647164">+91 8291647164</a>
       </p>
       <p style={{ marginTop: "1.5rem", opacity: 0.45, fontSize: "0.75rem" }}>© {new Date().getFullYear()} Sarvesh S. Pawar. All rights reserved.</p>
     </footer>
